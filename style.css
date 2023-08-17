@@ -1,6 +1,9 @@
 body,
 h1,
-h2,
+h2 {
+  margin: 0;
+  font-family: cursive;
+}
 h3,
 h4,
 p {
@@ -24,6 +27,7 @@ body {
 
 input {
   padding: 6px 10px;
+  font-family: monospace;
 }
 
 #openModelBtn {
@@ -83,6 +87,7 @@ input {
 
 #btnClose {
   font-size: 28px;
+  border: 3px solid black;
 }
 
 #btnClose:hover {
